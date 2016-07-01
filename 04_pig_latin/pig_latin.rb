@@ -5,7 +5,6 @@ def translate statement
 	words.each do |word|
 
 
-		
 		if (/^[aeiou]/).match(word)
 			word = one_vowel word
 		elsif word[0..1] == 'qu'
