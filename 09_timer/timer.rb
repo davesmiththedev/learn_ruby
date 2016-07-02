@@ -20,7 +20,7 @@ class Timer
 		hours = padded((@seconds / 60) / 60)
 
 		#return the merged results
-		hours.to_s + ":" + minutes.to_s + ":" + seconds.to_s
+		hours + ":" + minutes + ":" + seconds
 	end
 
 	def padded number
